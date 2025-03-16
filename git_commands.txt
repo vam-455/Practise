@@ -1,0 +1,5 @@
+git init - To Initialize a empty repository in the folder
+git status - To know the status of files in the folder wether they are tracked or untracked.
+git add - To add the untracked files to the staging area.
+git commit - To add the staging files to tracked.
+git restore - To restore the deleted files in local directory.
