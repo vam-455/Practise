@@ -3,3 +3,24 @@ git status - To know the status of files in the folder wether they are tracked o
 git add - To add the untracked files to the staging area.
 git commit - To add the staging files to tracked.
 git restore - To restore the deleted files in local directory.
+git remote add origin https://github.com/vam-455/Practise.git
+git remote -v
+git push origin master
+git remote set-url origin https://github.com/vam-455/Practise.git
+git remote -v
+git push origin master
+git checkout main
+ls
+git push origin main
+cd ..
+mkdir git-clone
+cd git-clone
+ls
+git clone https://github.com/vam-455/Practise.git
+ls
+cd Practise/
+ls
+git checkout master
+ls
+history
+
