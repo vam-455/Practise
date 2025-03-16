@@ -24,3 +24,4 @@ git checkout master
 ls
 history
 
+This is some new changes
