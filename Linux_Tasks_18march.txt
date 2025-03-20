@@ -1,0 +1,76 @@
+Task-1:
+mkdir folder1 folder2
+ll
+cd folder1
+pwd
+ls
+touch chandu{1..5}
+mkdir subfolder1 subfolder2 subfolder3
+ll
+cd ..
+ll folder2
+cp -r folder1 folder2
+ll folder1
+ll folder2
+cd folder2
+ll
+cd folder1
+pwd
+ll
+
+Task-2:
+vim task2
+cat task2 {
+#! /bin/bash
+
+touch chandu{1..5}
+
+cat>chandu1
+
+for file in chandu2 chandu3 chandu4 chandu5;
+do
+cp chandu1 "$file";
+done
+}
+chmod 777 task2
+ll
+bash task2
+cat chandu1 chandu2 chandu3 chandu4 chandu 5 (or)
+cat chandu1
+cat chandu2
+cat chandu3
+cat chandu4
+cat chandu5
+
+Task-3:
+vim task3
+cat task3 {
+#! /bin/bash
+
+mkdir folder1 folder2 folder3 folder4 folder5
+
+touch folder1/file1 folder1/file2 folder1/fil3
+
+for folder in folder2 folder3 folder4 folder5;
+do
+cp -r folder1 "$folder";
+done
+}
+chmod 777 task3
+bash task3
+ll folder1 folder2 folder3 folder4 folder5 (or)
+ll folder1
+ll folder2
+ll folder3
+ll folder4
+ll folder5
+
+Task-4:
+touch chandu
+ll
+mv chandu vamshi
+ll
+mkdir folder1
+ll
+mv folder1 newfolder
+ll
